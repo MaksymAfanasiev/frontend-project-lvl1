@@ -2,8 +2,6 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/MaksymAfanasiev/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/MaksymAfanasiev/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/MaksymAfanasiev/frontend-project-lvl1#readme",
+  "type": "module",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
