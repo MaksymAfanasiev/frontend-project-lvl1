@@ -16,7 +16,7 @@ export default (description, questions, validateAnswer) => {
     if (userAnswer !== validateAnswer(questions[step])) {
       isCorrectAnswer = false;
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${validateAnswer(questions[step])}.`);
-      console.log(`Let's try again, ${userName}`);
+      console.log(`Let's try again, ${userName}!`);
       break;
     }
 
@@ -25,6 +25,6 @@ export default (description, questions, validateAnswer) => {
   }
 
   if (step === 3) {
-    console.log(`Congratulations, ${userName}`);
+    console.log(`Congratulations, ${userName}!`);
   }
 };
