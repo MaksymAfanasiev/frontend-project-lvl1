@@ -10,3 +10,6 @@ https://asciinema.org/a/1R0FPqs56Afg9wrbOGB4RWr0t
 
 ### Brain-gsd
 https://asciinema.org/a/7KzAc4y8EPdCBPfB7uONwc3oQ
+
+### Brain-progression
+https://asciinema.org/a/Tnf6Hebmfd5NzCZG20Xnh1I74
