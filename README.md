@@ -7,3 +7,6 @@ https://asciinema.org/a/vjKulc1Edc5HLh69UN1nxx0jk
 
 ### Brain-calc
 https://asciinema.org/a/1R0FPqs56Afg9wrbOGB4RWr0t
+
+### Brain-gsd
+https://asciinema.org/a/7KzAc4y8EPdCBPfB7uONwc3oQ
