@@ -7,7 +7,7 @@ export default (description, questions, validateAnswer) => {
   console.log('Welcome to the Brain Games!');
 
   const userName = printQuestion('May I have your name? ');
-  console.log(`Hello ${userName}`);
+  console.log(`Hello, ${userName}`);
   console.log(description);
 
   while (step !== 3 && isCorrectAnswer) {
