@@ -15,7 +15,7 @@ export default (description, questions, validateAnswer) => {
     const userAnswer = printQuestion('Your answer: ');
     if (userAnswer !== validateAnswer(questions[step])) {
       isCorrectAnswer = false;
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${validateAnswer(questions[step])}.`);
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${validateAnswer(questions[step])}.'`);
       console.log(`Let's try again, ${userName}!`);
       break;
     }
