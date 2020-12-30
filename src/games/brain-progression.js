@@ -1,14 +1,10 @@
 import initGame from '../index.js';
+import randomInteger from '../utils.js';
 
 const description = 'What number is missing in the progression?';
 const questionForGame = [];
 const minNumbreProgression = 0;
 const maxNumbreProgression = 10;
-
-function randomInteger(min, max) {
-  const rand = min + Math.random() * (max + 1 - min);
-  return Math.floor(rand);
-}
 
 const createProgression = () => {
   for (let i = 0; i < 3; i += 1) {

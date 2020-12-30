@@ -1,7 +1,12 @@
 import initGame from '../index.js';
+import randomInteger from '../utils.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
-const questionForGame = ['25 50', '100 52', '3 9'];
+const questionForGame = [
+  `${randomInteger(0, 100)} ${randomInteger(0, 100)}`,
+  `${randomInteger(0, 100)} ${randomInteger(0, 100)}`,
+  `${randomInteger(0, 100)} ${randomInteger(0, 100)}`,
+];
 
 const NOD = (numbers) => {
   const [x, y] = numbers.split(' ');
