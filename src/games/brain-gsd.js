@@ -8,7 +8,7 @@ const questionForGame = [
   `${randomInteger(0, 100)} ${randomInteger(0, 100)}`,
 ];
 
-const NOD = (numbers) => {
+const findGsd = (numbers) => {
   const [x, y] = numbers.split(' ');
 
   const iter = (num1, num2) => {
@@ -21,5 +21,5 @@ const NOD = (numbers) => {
 };
 
 export default () => {
-  initGame(description, questionForGame, NOD);
+  initGame(description, questionForGame, findGsd);
 };
